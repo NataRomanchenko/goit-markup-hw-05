@@ -734,6 +734,9 @@ border-color: #4d5ae5;
 .form-user-icon:focus {
 fill: #4d5ae5;
 }
+.form-user-input:hover + .form-user-icon {
+    fill: #4D5AE5;
+    }
 .modal-textarea-field {
     margin-bottom: 16px;
 }
