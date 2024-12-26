@@ -679,11 +679,10 @@ color: #fff;
     margin-bottom: 16px;
 }
 
-.modal-form {
-    margin-bottom: 8px
-}
+
+
 .modal-fild {
-margin-bottom: 16px;
+margin-bottom: 8px;
 }
 .form-user-label {
 font-weight: 400;
@@ -735,7 +734,7 @@ border-color: #4d5ae5;
 .form-user-icon:focus {
 fill: #4d5ae5;
 }
-.modal-field {
+.modal-textarea-field {
     margin-bottom: 16px;
 }
 .modal-textarea {
