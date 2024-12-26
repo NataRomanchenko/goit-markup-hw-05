@@ -730,10 +730,7 @@ position: absolute;
 .form-user-input:focus {
 border-color: #4d5ae5;
 }
-.form-user-icon:hover,
-.form-user-icon:focus {
-fill: #4d5ae5;
-}
+
 .form-user-input:hover + .form-user-icon {
     fill: #4D5AE5;
     }
