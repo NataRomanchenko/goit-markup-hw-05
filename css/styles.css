@@ -731,7 +731,7 @@ border-color: #4d5ae5;
 .form-user-icon:focus {
 fill: #4d5ae5;
 }
-.modal-textarea-field {
+.modal-field {
     margin-bottom: 16px;
 }
 .modal-textarea {
@@ -771,8 +771,9 @@ font-weight: 400;
 border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-bottom: 8px;
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 
 .modal-checkbox-type:checked+ .modal-label-checkbox .castum-checkbox {
