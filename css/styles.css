@@ -731,7 +731,7 @@ border-color: #4d5ae5;
 .form-user-icon:focus {
 fill: #4d5ae5;
 }
-.modal-field-textarea {
+.modal-textarea-field {
     margin-bottom: 16px;
 }
 .modal-textarea {
@@ -771,10 +771,10 @@ font-weight: 400;
 border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-bottom: 8px;
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-checkbox {
-    transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);}
-    
+
+
 .modal-checkbox-type:checked+ .modal-label-checkbox .castum-checkbox {
 background-color: #404bbf;
     border: none;
@@ -783,12 +783,12 @@ background-color: #404bbf;
 .modal-label-checkbox {
 font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
 .modal-label-checkbox a {
-line-height: 1.33333;
+line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
